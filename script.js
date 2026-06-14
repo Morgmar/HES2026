@@ -232,7 +232,7 @@ let wrongQuestionsPool = [];
     a: ['tak', 'nie'],
     c: [0],
     img: '',
-  },*/// --- KOLUMNA 1 ---
+  },/// --- KOLUMNA 1 ---
   {
     q: 'Do najczęściej odwiedzanych krajów świata nie zaliczamy:',
     a: ['USA', 'Rosji', 'Francji', 'Turcji'],
@@ -431,7 +431,207 @@ let wrongQuestionsPool = [];
     ],
     c: [4], // Zaznaczone: wszystkie odpowiedzi są prawidłowe
     img: ''
-  }
+  }*/
+// --- KOLUMNA 1 ---
+  {
+    q: 'Do najczęściej odwiedzanych krajów świata nie zaliczamy:',
+    a: ['USA', 'Rosji', 'Francji', 'Turcji'],
+    c: [1], // Poprawione: Rosji (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Turystyka jest to:',
+    a: [
+      'podróżowanie i pobyt w celach wypoczynkowych, służbowych lub innych poza codziennym otoczeniem',
+      'przemieszczanie podróżnych motywowanych różnymi celami natury społeczno-kulturowej i zawodowej',
+      'wizytacje, podróże handlowe, uczestnictwo w konferencjach, kongresach, występy na koncertach ...itd., podróże związane z zawodowym uprawianiem sportu',
+      'wszystkie odpowiedzi są prawidłowe'
+    ],
+    c: [3], // Wszystkie odpowiedzi są prawidłowe (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Wpływ turystyki na środowisko nie zależy od:',
+    a: [
+      'charakteru oraz form turystyki',
+      'świadomości ekologicznej turystów',
+      'klimatycznych danych statystycznych',
+      'odporności środowiska przyrodniczego na antropopresję'
+    ],
+    c: [2], // Klimatycznych danych statystycznych (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Według Światowej Organizacji Turystyki do celów turystycznych zaliczamy:',
+    a: [
+      'cele religijne, pielgrzymki',
+      'sprawy zawodowe, interesy',
+      'cele zdrowotne',
+      'wszystkie odpowiedzi są prawidłowe'
+    ],
+    c: [3], // Wszystkie odpowiedzi są prawidłowe (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Turystyka religijna rozpoczęła się w:',
+    a: ['starożytności', 'wczesnym średniowieczu', 'po wyprawach krzyżowych', 'w epoce wielkich odkryć geograficznych', 'w XX w.'],
+    c: [0], // Starożytności (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Do szkód pośrednich wywołanych przez turystykę nie zaliczamy:',
+    a: [
+      'niszczenia roślinności, fauny, przyrody nieożywionej',
+      'synantropizacji roślin i zwierząt',
+      'zmian właściwości fizykochemicznych gleby i wód',
+      'zmian w strukturze i funkcjonowaniu ekosystemów chronionych'
+    ],
+    c: [0], // Niszczenia roślinności... (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Zużycie wody w turystyce jest porównywalne do zużycia w:',
+    a: [
+      'gospodarstwie domowym',
+      'rolnictwie',
+      'przemyśle',
+      'jest nieporównywalnie większe',
+      'jest nieporównywalnie mniejsze'
+    ],
+    c: [0], // Gospodarstwie domowym (zamalowane kółko)
+    img: ''
+  },
+
+  // --- KOLUMNA 2 ---
+  {
+    q: 'Turystyka zrównoważona nie dąży do:',
+    a: [
+      'zwiększania zatrudnienia',
+      'maksymalizacji zysków przy obniżeniu kosztów',
+      'poprawy jakości życia mieszkańców',
+      'promocji lokalnych produktów i korzystania z nich',
+      'wszystkie odpowiedzi są poprawne'
+    ],
+    c: [1], // Poprawione: maksymalizacji zysków... (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Bezpośredni wpływ turystyki na gleby przejawia się m.in:',
+    a: [
+      'zwiększeniem niebezpieczeństwa lawin,',
+      'wydeptywaniem,',
+      'wycinaniem znacznych połaci lasów,',
+      'obniżeniem poziomu wód gruntowych'
+    ],
+    c: [1], // Wydeptywaniem (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Główne kryteria i zasadami turystyki zrównoważonej to:',
+    a: [
+      'maksymalizacja społeczno-ekonomicznych korzyści dla państwa',
+      'wsparcie lokalnego dziedzictwa kulturowego',
+      'zwiększenie negatywnych skutków oddziaływania na środowisko',
+      'wszystkie odpowiedzi są poprawne,',
+      'żadna odpowiedź nie jest poprawna,'
+    ],
+    c: [1], // Wsparcie lokalnego dziedzictwa kulturowego (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Do czynników endogennych wpływu turystyki na rozwój regionu zaliczamy:',
+    a: [
+      'usługi turystyczne świadczone przez firmy zewnętrzne',
+      'promocję działania rządu krajowego',
+      'atrakcje turystyczne miejscowości (muzea, miejsca historyczne)',
+      'międzynarodowe sieci hotelowe'
+    ],
+    c: [1], // Poprawione: promocję działania rządu krajowego (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Do infrastruktury turystycznej społecznej zalicza się m.in.:',
+    a: [
+      'drogi, szlaki turystyczne,',
+      'górskie koleje linowe,',
+      'obiekty sportowe i hotele',
+      'urządzenia rozrywkowe, informacja',
+      'zakłady gastronomiczne'
+    ],
+    c: [2], // Obiekty sportowe i hotele (zaznaczone żółtym zakreślaczem)
+    img: ''
+  },
+  {
+    q: 'Do podstawowych elementów infrastruktury turystycznej i rekreacyjnej nie zaliczamy:',
+    a: [
+      'zakładów związanych z noclegiem i gastronomią',
+      'indywidualnych środków transportu',
+      'zakładów rzemieślniczych',
+      'sieci handlu detalicznego'
+    ],
+    c: [1], // Poprawione: indywidualnych środków transportu (zamalowane kółko)
+    img: ''
+  },
+
+  // --- KOLUMNA 3 ---
+  {
+    q: 'Która organizacja turystyczna powstała najwcześniej:',
+    a: [
+      'Polskie Towarzystwo Turystyczno-Krajoznawcze (PTTK)',
+      'Polskie Towarzystwo Krajoznawcze (PTK)',
+      'Towarzystwo Karkonoskie (TK)',
+      'Towarzystwo Tatrzańskie'
+    ],
+    c: [1], // Poprawione: Polskie Towarzystwo Krajoznawcze (PTK) (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Do rodzajów turystyki nie zaliczamy:',
+    a: [
+      'turystyki krajoznawczej',
+      'turystyki ornitologicznej',
+      'ekoturystyki',
+      'turystyki kwalifikowanej',
+      'żadna odpowiedź nie jest prawidłowa'
+    ],
+    c: [4], // Żadna odpowiedź nie jest prawidłowa (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Do turystyki przygodowej nie zaliczamy:',
+    a: ['turystyki zdrowotnej', 'trekkingu;', 'backpackingu;', 'autostopu;'],
+    c: [0], // Turystyki zdrowotnej (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Tanatoturystyka jest to:',
+    a: ['turystyka przemysłowa', 'turystyka wiejska', 'turystyka mroczna', 'turystyka kulinarna'],
+    c: [2], // Turystyka mroczna (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Co oznacza, że turystyka jest często opisywana jako „pracochłonna czynność”:',
+    a: [
+      'turystyka wymaga zaangażowania wielu pracowników na jednostkę zaangażowanego kapitału, turystyka tworzy więcej miejsc pracy',
+      'zatrudnienie w turystyce zdominowane jest przez kobiety;',
+      'jako działalność na dużą skalę może stworzyć niewiele miejsc pracy'
+    ],
+    c: [0], // Turystyka wymaga zaangażowania wielu pracowników... (zamalowane kółko)
+    img: ''
+  },
+  {
+    q: 'Wpływ społeczny turystyki na region przejawia się poprzez:',
+    a: [
+      'lepsze zrozumienie innych kultur',
+      'poprawę standardów życia',
+      'utratę dumy',
+      'utowarowienie - Cocacolonizacja',
+      'wszystkie odpowiedzi są prawidłowe',
+      'żadna odpowiedź nie jest prawidłowa'
+    ],
+    c: [4], // Wszystkie odpowiedzi są prawidłowe (zamalowane kółko)
+    img: ''
+      }
 ];
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
